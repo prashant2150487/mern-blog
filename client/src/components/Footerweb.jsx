@@ -33,7 +33,7 @@ const Footerweb = () => {
                                     target='_blank'
                                     rel='noopener noreferrer'
                                 >
-                                    Sahand's Blog
+                                    Blog
                                 </Footer.Link>
                             </Footer.LinkGroup>
                         </div>
