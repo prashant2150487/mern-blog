@@ -11,10 +11,15 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-}, {
-    timestamps: true
-});
+    profilePicture: {
+        type: String,
+        default: "https://www.pngall.com/wp-content/uploads/5/Profile.png"
+    },
+},
+    {
+        timestamps: true
+    });
 
 
-const User=mongoose.model('User',userSchema);
+const User = mongoose.model('User', userSchema);
 export default User;
