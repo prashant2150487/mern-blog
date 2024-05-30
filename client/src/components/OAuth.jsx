@@ -31,7 +31,6 @@ const OAuth = () => {
                 navigate('/')
 
             }
-            console.log(resultsFromGoogle,res);
         } catch (error) {
             console.log(error);
         }
