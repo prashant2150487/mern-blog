@@ -1,12 +1,10 @@
 import { Button, FileInput, Select, TextInput } from "flowbite-react"
-import { useState } from "react";
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 
 
 
 const CreatePost = () => {
-    const [value, setValue] = useState('');
     return (
         <div className="min-h-screen p-3 max-w-3xl mx-auto">
             <h1 className="text-center text-3xl my-7 font-semibold">Create a post</h1>
