@@ -8,7 +8,6 @@ const postSchema = new mongoose.Schema({
     title: {
         type: String,
         required: true,
-        unique: true
     },
     content: {
         type: String,
@@ -21,7 +20,6 @@ const postSchema = new mongoose.Schema({
     category: {
         type: String,
         required: true,
-        unique: true
     },
     slug: {
         type: String,
